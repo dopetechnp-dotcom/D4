@@ -1,0 +1,10 @@
+[
+  {
+    "id": "708e8513-2dd1-4c78-a94c-9a7d5882fe7e",
+    "name": "Payment QR",
+    "image_url": "https://aizgswoelfdkhyosgvzu.supabase.co/storage/v1/object/public/qr-codes/1755436252111.jpeg",
+    "is_active": true,
+    "created_at": "2025-08-17T13:10:52.650799+00:00",
+    "updated_at": "2025-08-17T13:10:52.650799+00:00"
+  }
+]

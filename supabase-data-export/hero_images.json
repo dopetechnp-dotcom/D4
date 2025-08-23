@@ -1,0 +1,32 @@
+[
+  {
+    "id": 36,
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "image_url": "https://aizgswoelfdkhyosgvzu.supabase.co/storage/v1/object/public/hero-images/1755188294928-spotify%20premium.png",
+    "image_file_name": "1755188294928-spotify premium.png",
+    "button_text": null,
+    "button_link": null,
+    "display_order": 3,
+    "is_active": true,
+    "created_at": "2025-08-21T06:43:07.412867+00:00",
+    "updated_at": "2025-08-22T06:07:34.495113+00:00",
+    "show_content": true
+  },
+  {
+    "id": 37,
+    "title": "K870t pro",
+    "subtitle": "",
+    "description": "",
+    "image_url": "https://aizgswoelfdkhyosgvzu.supabase.co/storage/v1/object/public/hero-images/1755188747746-test1.jpeg",
+    "image_file_name": "1755188747746-test1.jpeg",
+    "button_text": null,
+    "button_link": null,
+    "display_order": 2,
+    "is_active": true,
+    "created_at": "2025-08-21T06:44:39.759664+00:00",
+    "updated_at": "2025-08-22T06:07:34.646349+00:00",
+    "show_content": true
+  }
+]
