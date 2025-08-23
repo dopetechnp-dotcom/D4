@@ -28,7 +28,7 @@ const kelptA2ExtraBold = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dopetechnp-aflazuh1u-dopetechnps-projects.vercel.app'),
+  metadataBase: new URL('https://dopetechnp-dotcom.vercel.app'),
   title: "DopeTech Nepal - Premium Tech Gear",
   description: "Premium tech gear from DopeTech Nepal. Mechanical keyboards, gaming mice, wireless headphones, and more. Your setup, perfected.",
   keywords: "tech gear, mechanical keyboard, gaming mouse, wireless headphones, Nepal, DopeTech, gaming peripherals, RGB keyboard, wireless mouse",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://dopetechnp-aflazuh1u-dopetechnps-projects.vercel.app',
+    url: 'https://dopetechnp-dotcom.vercel.app',
     title: 'DopeTech Nepal - Premium Tech Gear',
     description: 'Premium tech gear from DopeTech Nepal. Mechanical keyboards, gaming mice, wireless headphones, and more.',
     siteName: 'DopeTech Nepal',
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
   },
   alternates: {
-    canonical: 'https://dopetechnp-aflazuh1u-dopetechnps-projects.vercel.app',
+    canonical: 'https://dopetechnp-dotcom.vercel.app',
   },
   other: {
     'mobile-web-app-capable': 'yes',
