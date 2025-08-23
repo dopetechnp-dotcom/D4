@@ -2,9 +2,6 @@ import { NextRequest, NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabase'
 import { emailService } from '@/lib/email-service'
 
-// Enable Edge Runtime for better performance
-export const runtime = 'edge'
-
 interface CheckoutData {
   orderId: string
   customerInfo: {

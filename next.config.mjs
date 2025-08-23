@@ -38,8 +38,6 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
     optimizeCss: true,
-    // Enable Edge Runtime for better performance
-    runtime: 'edge',
     turbo: {
       rules: {
         '*.svg': {

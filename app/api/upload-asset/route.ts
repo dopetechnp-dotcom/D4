@@ -2,9 +2,6 @@ import { NextRequest, NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabase'
 import { compressImage } from '@/lib/image-optimizer'
 
-// Enable Edge Runtime for better performance
-export const runtime = 'edge'
-
 export async function POST(request: NextRequest) {
   try {
     // Configure request to handle larger files
