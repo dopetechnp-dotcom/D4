@@ -87,8 +87,37 @@ Visit your new Vercel URL and test:
 Your DopeTech site is now running on Vercel Edge with:
 - ⚡ Faster performance globally
 - 💰 Zero egress costs
-- 🌍 Global edge locations
+- 🌍 Single region deployment (free plan)
 - 🔄 Automatic deployments
+
+## 💰 Plan Comparison
+
+### Free Plan (What you get):
+- ✅ **100GB-hours** of Edge Function execution
+- ✅ **10GB** bandwidth per month
+- ✅ **Single region** deployment (US East)
+- ✅ **Unlimited** personal projects
+- ✅ **Custom domains** with SSL
+- ✅ **Zero egress costs**
+
+### Pro Plan ($20/month) - Optional Upgrade:
+- ✅ **1,000GB-hours** of Edge Function execution
+- ✅ **1TB** bandwidth
+- ✅ **Multiple regions** (US, Europe, Asia, Australia)
+- ✅ **Team collaboration**
+- ✅ **Advanced analytics**
+
+## 🚨 Important Note About Regions
+
+**Free Plan Limitation:**
+- Your site will deploy to **US East (Virginia)** only
+- Still **much faster** than your current setup
+- **Zero egress costs** (main benefit achieved)
+
+**If you need global regions later:**
+- Upgrade to Pro plan ($20/month)
+- Add `"regions": ["iad1", "bom1", "hnd1", "syd1"]` to `vercel.json`
+- Redeploy for global distribution
 
 ## Troubleshooting
 
@@ -111,6 +140,6 @@ Your DopeTech site is now running on Vercel Edge with:
 1. **Monitor Performance**: Check Vercel dashboard for analytics
 2. **Set Up Monitoring**: Enable error tracking
 3. **Optimize Further**: Add caching headers to API routes
-4. **Scale Up**: Upgrade to Pro plan if you exceed free limits
+4. **Scale Up**: Upgrade to Pro plan if you need global regions
 
 Your site is now future-proof and cost-effective! 🚀
