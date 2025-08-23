@@ -1,9 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabase'
 
-// Enable Edge Runtime for better performance
-export const runtime = 'edge'
-
 export async function PUT(request: NextRequest) {
   try {
     const body = await request.json()

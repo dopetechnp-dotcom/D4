@@ -1,9 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { emailService } from '@/lib/email-service'
 
-// Enable Edge Runtime for better performance
-export const runtime = 'edge'
-
 interface OrderEmailData {
   orderId: string
   orderDbId: number
