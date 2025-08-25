@@ -6,10 +6,8 @@ const __dirname = path.dirname(__filename)
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configure for Netlify deployment with static export
-  // output: 'export', // Commented out for development
-  // trailingSlash: true, // Commented out for development
-  // distDir: 'out', // Commented out for development
+  // Vercel deployment configuration
+  // Removed static export for Vercel compatibility
   
   // Enhanced Image Optimization
   images: {
@@ -27,7 +25,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'flrcwmmdveylmcbjuwfc.supabase.co',
+        hostname: 'aizgswoelfdkhyosgvzu.supabase.co',
         port: '',
         pathname: '/storage/v1/object/public/**',
       },
@@ -38,14 +36,6 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
     optimizeCss: true,
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
-      },
-    },
   },
   
   eslint: {
@@ -106,6 +96,18 @@ const nextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, max-age=300, stale-while-revalidate=600',
+          },
+          {
+            key: 'Access-Control-Allow-Origin',
+            value: '*',
+          },
+          {
+            key: 'Access-Control-Allow-Methods',
+            value: 'GET, POST, PUT, DELETE, OPTIONS',
+          },
+          {
+            key: 'Access-Control-Allow-Headers',
+            value: 'Content-Type, Authorization',
           },
         ],
       },
@@ -189,19 +191,6 @@ const nextConfig = {
         use: ['@svgr/webpack'],
       });
     }
-    
-    // Compression plugin can be added later if needed
-    // if (!dev && !isServer) {
-    //   const { default: CompressionPlugin } = await import('compression-webpack-plugin');
-    //   config.plugins.push(
-    //     new CompressionPlugin({
-    //       algorithm: 'gzip',
-    //       test: /\.(js|css|html|svg)$/,
-    //       threshold: 10240,
-    //       minRatio: 0.8,
-    //     })
-    //   );
-    // }
     
     return config;
   },
