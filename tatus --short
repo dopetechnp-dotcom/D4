@@ -1,0 +1,18 @@
+app/dopetechadmin/page.tsx
+app/page.tsx
+app/test-db/page.tsx
+components/enhanced-admin-panel.tsx
+components/enhanced-header.tsx
+components/hero-image-carousel.tsx
+components/simple-admin-panel.tsx
+"lider carousel for better alignment\357\200\242"
+push-to-dopetechnepal.bat
+push-to-dopetechnepal.ps1
+tatus
+tatus --short
+tatus -v
+vercel-deployment/app/page.tsx
+vercel-deployment/components/enhanced-admin-panel.tsx
+vercel-deployment/components/enhanced-header.tsx
+vercel-deployment/components/hero-image-carousel.tsx
+vercel-deployment/components/simple-admin-panel.tsx

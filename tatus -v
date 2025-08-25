@@ -1,0 +1,5 @@
+[33mbe45118[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m feat: update navigation - add desktop navigation with Home/Categories dropdown, enhance mobile menu, and clean up desktop controls
+[33maefad0a[m Add favicon configuration and hero image toggle functionality
+[33mcc172fe[m Update UI: Remove admin panel from mobile menu, fix orders spacing, update QR code manager colors
+[33mf2b55de[m Fix: Show category icon only when category section is not visible
+[33m1b18b84[m UI: cart text white in dark mode; Buy Now -> instant checkout; asset fixes

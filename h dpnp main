@@ -1,0 +1,5 @@
+[33mc1d1897[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m  Fix API routes for static export: Add dynamic = 'force-dynamic' to all API routes
+[33m4eb1c12[m[33m ([m[1;31mdpnp/main[m[33m, [m[1;31mdpnp/HEAD[m[33m)[m  Fix Netlify deployment: Configure static export with API route redirects
+[33mec5a17a[m  Fix Netlify build: Disable secrets scanning and remove deprecated Next.js option
+[33ma471529[m[33m ([m[1;31mdopetech-nepal/main[m[33m)[m  Email service configured - Admin notifications working, customer emails disabled
+[33mf010097[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Fix metadata URLs and add API endpoint test - Update to Vercel domain
